@@ -3,17 +3,41 @@
 body{
     font-family: 'Bree Serif', serif;
     margin: 0;
-    background-color: #FED9ED;
+    background-color: #fff5fa;
 }
 
 h1{
     text-align: center;
 }
 
+a{
+    text-decoration:none
+}
+
 .lista{
     text-align: center;
+    font-size: 20px;
 }
 
 .titulo {
-    font-size: 50px;
+    background-color: #67729D;
+    color: #FED9ED;
+    font-size: 60px;
+    padding: 2.5rem 2rem;
+    margin-top: 0;
+    text-shadow: 0.1em 0.1em 0.2em #454d69;
+}
+
+.lista #receta{
+    transition: box-shadow 0.3s ease-in-out;
+    line-height: 10rem;
+    background-color: #E7BCDE;
+    color: #4b5372;
+    padding: 1.5rem;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.lista #receta:hover{
+    box-shadow: 5px 5px 10px #67729D;
 }
