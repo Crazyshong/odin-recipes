@@ -52,3 +52,7 @@ footer p{
 .lista #receta:hover{
     box-shadow: 5px 5px 10px #67729D;
 }
+
+.imagen{
+    text-align: center;
+}
