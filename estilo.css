@@ -24,6 +24,7 @@ footer{
 footer p{
     text-align: center;
     margin: 0;
+
 }
 .lista{
     text-align: center;
@@ -55,4 +56,13 @@ footer p{
 
 .imagen{
     text-align: center;
+}
+
+#instrucciones{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#subtitulo-recetas{
+    font-size: 20px;
 }
